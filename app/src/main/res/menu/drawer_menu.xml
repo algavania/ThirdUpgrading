@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_beranda"
+            android:title="Beranda"/>
+        <item android:id="@+id/nav_kelola"
+            android:title="Fragment Dua"/>
+        <item android:id="@+id/nav_transaksi"
+            android:title="Fragment Tiga"/>
+    </group>
+    <group
+        android:id="@+id/group_two"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_logout"
+            android:title="Logout"/>
+    </group>
+</menu>
